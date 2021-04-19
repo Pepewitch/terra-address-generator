@@ -1,0 +1,11 @@
+{
+  "name": "terra-address-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Pepewitch/terra-address-generator.git",
+  "author": "Witchayut <skpepe134@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@terra-money/terra.js": "^1.7.0"
+  }
+}
