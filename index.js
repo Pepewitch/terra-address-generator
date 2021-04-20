@@ -1,8 +1,8 @@
 const { MnemonicKey } = require("@terra-money/terra.js");
 const fs = require("fs");
 
-const target = /^terra1nkw(a|4)/;
-const preciseTarget = /^terra1nkw(a|4)r/;
+const target = /^terra1nkw/;
+const preciseTarget = /^terra1nkw(a|4)/;
 while (1) {
   const mk = new MnemonicKey();
   if (preciseTarget.test(mk.accAddress)) {
